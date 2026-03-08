@@ -1,0 +1,45 @@
+# -----------------------------------------------------------------------------
+# Violet Void Alacritty Colors
+# Theme: Violet Void
+# Upstream: https://github.com/folke/violet-void.nvim/raw/main/extras/alacritty/violet_void.toml
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#0f0f0f'
+foreground = '#e7e7e7'
+
+#[colors.cursor]
+#cursor = '#e7e7e7'
+#text = '#0f0f0f'
+
+# Normal colors
+[colors.normal]
+black = '#181818'
+red = '#ff004b'
+green = '#42ff97'
+yellow = '#7c60d1'
+blue = '#29adff'
+magenta = '#fd007f'
+cyan = '#00fff9'
+white = '#e7e7e7'
+
+# Bright colors
+[colors.bright]
+black = '#333333'
+red = '#ff1a67'
+green = '#42ffad'
+yellow = '#d0a9e5'
+blue = '#70c8ff'
+magenta = '#fd0098'
+cyan = '#b6e3ff'
+white = '#e7e7e7'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#fa9f80'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#ff004b'
